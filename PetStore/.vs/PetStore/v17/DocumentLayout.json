@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\demon\\OneDrive\\Documents\\GitHub\\PetStore\\PetStore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A4703178-F6BA-47E2-B96D-12DA5C150938}|PetStore\\PetStore.csproj|c:\\users\\demon\\onedrive\\documents\\github\\petstore\\petstore\\petstore\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4703178-F6BA-47E2-B96D-12DA5C150938}|PetStore\\PetStore.csproj|solutionrelative:petstore\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A4703178-F6BA-47E2-B96D-12DA5C150938}|PetStore\\PetStore.csproj|c:\\users\\demon\\onedrive\\documents\\github\\petstore\\petstore\\petstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4703178-F6BA-47E2-B96D-12DA5C150938}|PetStore\\PetStore.csproj|solutionrelative:petstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\demon\\OneDrive\\Documents\\GitHub\\PetStore\\PetStore\\PetStore\\Product.cs",
+              "RelativeDocumentMoniker": "PetStore\\Product.cs",
+              "ToolTip": "C:\\Users\\demon\\OneDrive\\Documents\\GitHub\\PetStore\\PetStore\\PetStore\\Product.cs",
+              "RelativeToolTip": "PetStore\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T00:57:24.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\demon\\OneDrive\\Documents\\GitHub\\PetStore\\PetStore\\PetStore\\Program.cs",
               "RelativeDocumentMoniker": "PetStore\\Program.cs",
               "ToolTip": "C:\\Users\\demon\\OneDrive\\Documents\\GitHub\\PetStore\\PetStore\\PetStore\\Program.cs",
               "RelativeToolTip": "PetStore\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T00:44:45.824Z",
               "EditorCaption": ""
