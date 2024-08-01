@@ -6,5 +6,10 @@
         public decimal Price { get; set; }
         public int Quantity { get; set; }
         public string Description { get; set; }
+
+        public override string ToString()
+        {
+            return $"Product Name: {Name}, Description: {Description}";
+        }
     }
 }
