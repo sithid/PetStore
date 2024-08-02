@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.Design;
 
 namespace PetStore
 {
@@ -8,54 +9,93 @@ namespace PetStore
         {
             ProductLogic productLogic = new ProductLogic();
 
-            Console.WriteLine("Press 1 to add a product");
+            Console.WriteLine("Press 1 to add a dog leash product.");
+            Console.WriteLine("Press 2 to view a dog leash.");
             Console.WriteLine("Press 8 to view all products. ");
             Console.WriteLine("Type 'exit' to quit");
 
             string userInput = Console.ReadLine();
 
-            while (userInput.ToLower() != "exit")
+            while (!string.Equals(userInput.ToLower(), "exit"))
             {
-                if (string.Equals(userInput, "1"))
+                try
                 {
-                    try
+                    if (string.Equals(userInput, "1"))
                     {
-                        DogLeash product = new DogLeash();
+                        DogLeash leash = new DogLeash();
 
                         Console.Write("Enter Product Name: ");
-                        product.Name = Console.ReadLine();
+                        leash.Name = Console.ReadLine();
 
                         Console.Write("Enter Product Description: ");
-                        product.Description = Console.ReadLine();
+                        leash.Description = Console.ReadLine();
 
                         Console.Write("Enter Product Material: ");
-                        product.Material = Console.ReadLine();
+                        leash.Material = Console.ReadLine();
 
-                        productLogic.AddProduct(product);
-                        Console.WriteLine(product.ToString());
+                        productLogic.AddProduct(leash);
+                        Console.WriteLine(leash.ToString());
                     }
-                    catch (Exception e)
+                    else if (string.Equals(userInput, "2"))
                     {
-                        Console.WriteLine("An exception was caught!");
-                        Console.WriteLine(e.Message);
-                        Console.WriteLine("Press any key to exit.");
-                        Console.ReadKey();
+                        Console.Write("Enter Product Name: ");
+
+                        DogLeash leash = productLogic.GetDogLeashByName(Console.ReadLine());
+
+                        if (leash != null)
+                            Console.WriteLine(leash.ToString());
+                        else
+                            Console.WriteLine("No product found with that name.");
                     }
+                    else if (string.Equals(userInput, "8"))
+                    {
+                        List<Product> products = productLogic.GetAllProducts();
+
+                        foreach (Product product in products)
+                        {
+                            Console.WriteLine(product.ToString());
+                        }
+                    }
+                    //else if (string.Equals(userInput, "2"))
+                    //{
+                    //    CatFood food = new CatFood();
+
+                    //    Console.Write("Enter Product Name: ");
+                    //    food.Name = Console.ReadLine();
+
+                    //    Console.Write("Enter Product Description: ");
+                    //    food.Description = Console.ReadLine();
+
+                    //    Console.Write("Enter Product Weight(Lbs): ");
+
+                    //    double weight = 0;
+                    //    food.WeightPounds = double.TryParse(Console.ReadLine(), out weight) ? weight : 1;
+
+                    //    Console.Write("Kitten Food? y / n: ");
+                    //    string kfood = Console.ReadLine();
+
+                    //    food.IsKittenFood = string.Equals( kfood, "y") ? true : false;
+
+                    //    productLogic.AddProduct(food);
+                    //    Console.WriteLine(food.ToString());
+                    //}
                 }
-                else if (string.Equals(userInput, "8"))
+                catch (Exception e)
                 {
-                    List<Product> products = productLogic.GetAllProducts();
-
-                    foreach( Product product in products)
-                    {
-                        Console.WriteLine(product.ToString());
-                    }
+                    Console.WriteLine("An exception was caught!");
+                    Console.WriteLine(e.Message);
+                    Console.WriteLine("Press any key to continue.");
+                    Console.ReadKey();
                 }
-                Console.WriteLine("Press 1 to add a product. ");
-                Console.WriteLine("Press 8 to view all products. ");
-                Console.WriteLine("Type 'exit' to quit");
+                finally
+                {
+                    Console.WriteLine("Press 1 to add a dog leash product.");
+                    Console.WriteLine("Press 2 to view a dog leash.");
+                    Console.WriteLine("Press 8 to view all products. ");
+                    Console.WriteLine("Type 'exit' to quit");
 
-                userInput = Console.ReadLine();
+                    userInput = Console.ReadLine();
+                }
             }
         }
     }
