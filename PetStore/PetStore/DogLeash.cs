@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace PetStore
+﻿namespace PetStore
 {
     public class DogLeash : Product
     {
