@@ -1,7 +1,4 @@
-﻿using System;
-using System.ComponentModel.Design;
-
-namespace PetStore
+﻿namespace PetStore
 {
     public class Program
     {
@@ -46,7 +43,14 @@ namespace PetStore
                         DogLeash leash = productLogic.GetDogLeashByName(Console.ReadLine());
 
                         if (leash != null)
+                        {
+                            Console.WriteLine(); // Add some spacing between menu and output for clarity.
+
                             Console.WriteLine(leash.ToString());
+                            Console.WriteLine($"Price = {leash.Price}, Discounted Price: {leash.Price.DiscountThisPrice()}");
+
+                            Console.WriteLine(); // Add some spacing between menu and output for clarity.
+                        }
                         else
                             Console.WriteLine("No product found with that name.");
                     }

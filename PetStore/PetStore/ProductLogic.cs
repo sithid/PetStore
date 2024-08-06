@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Net.Sockets;
-
-namespace PetStore
+﻿namespace PetStore
 {
     public class ProductLogic : IProductLogic
     {
