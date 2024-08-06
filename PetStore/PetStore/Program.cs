@@ -12,6 +12,8 @@ namespace PetStore
             Console.WriteLine("Press 1 to add a dog leash product.");
             Console.WriteLine("Press 2 to view a dog leash.");
             Console.WriteLine("Press 8 to view all products. ");
+            Console.WriteLine("Press 9 to view all IN STOCK products.");
+            Console.WriteLine("Press 10 to view all OUT OF STOCK products.");
             Console.WriteLine("Type 'exit' to quit");
 
             string userInput = Console.ReadLine();
@@ -20,6 +22,7 @@ namespace PetStore
             {
                 try
                 {
+                    // Could replace the if/else block with switch/case.
                     if (string.Equals(userInput, "1"))
                     {
                         DogLeash leash = new DogLeash();
@@ -56,29 +59,52 @@ namespace PetStore
                             Console.WriteLine(product.ToString());
                         }
                     }
-                    //else if (string.Equals(userInput, "2"))
-                    //{
-                    //    CatFood food = new CatFood();
+                    else if (string.Equals(userInput, "9"))
+                    {
+                        List<string> products = productLogic.GetOnlyInStockProducts();
 
-                    //    Console.Write("Enter Product Name: ");
-                    //    food.Name = Console.ReadLine();
+                        Console.WriteLine(); // Add some spacing between menu and output for clarity.
+                        Console.WriteLine("Products in Stock:");
 
-                    //    Console.Write("Enter Product Description: ");
-                    //    food.Description = Console.ReadLine();
+                        foreach (Product p in productLogic.GetAllProducts())
+                        {
+                            // I choose to do the output like this to gain access to all properties for a more verbose output.
+                            // I could have simply looped the return of GetOnlyInStockProducts and printed the string but I wanted
+                            // all of the additional information displayed with ToString.  For a customer, price is also as important as the name.
+                            foreach (string prodName in products)
+                            {
+                                if (string.Equals(p.Name, prodName))
+                                {
+                                    Console.WriteLine(p.ToString());
+                                }
+                            }
+                        }
 
-                    //    Console.Write("Enter Product Weight(Lbs): ");
+                        Console.WriteLine(); // Add some spacing between menu and output for clarity.
+                    }
+                    else if (string.Equals(userInput, "10"))
+                    {
+                        List<string> products = productLogic.GetOutOfStockProducts();
 
-                    //    double weight = 0;
-                    //    food.WeightPounds = double.TryParse(Console.ReadLine(), out weight) ? weight : 1;
+                        Console.WriteLine(); // Add some spacing between menu and output for clarity.
+                        Console.WriteLine("Products Out of Stock:");
 
-                    //    Console.Write("Kitten Food? y / n: ");
-                    //    string kfood = Console.ReadLine();
+                        foreach (Product p in productLogic.GetAllProducts())
+                        {
+                            // I choose to do the output like this to gain access to all properties for a more verbose output.
+                            // I could have simply looped the return of GetOnlyInStockProducts and printed the string but I wanted
+                            // all of the additional information displayed with ToString.  For a customer, price is also as important as the name.
+                            foreach (string prodName in products)
+                            {
+                                if (string.Equals(p.Name, prodName))
+                                {
+                                    Console.WriteLine(p.ToString());
+                                }
+                            }
+                        }
 
-                    //    food.IsKittenFood = string.Equals( kfood, "y") ? true : false;
-
-                    //    productLogic.AddProduct(food);
-                    //    Console.WriteLine(food.ToString());
-                    //}
+                        Console.WriteLine(); // Add some spacing between menu and output for clarity.
+                    }
                 }
                 catch (Exception e)
                 {
@@ -92,6 +118,8 @@ namespace PetStore
                     Console.WriteLine("Press 1 to add a dog leash product.");
                     Console.WriteLine("Press 2 to view a dog leash.");
                     Console.WriteLine("Press 8 to view all products. ");
+                    Console.WriteLine("Press 9 to view all IN STOCK products.");
+                    Console.WriteLine("Press 10 to view all OUT OF STOCK products.");
                     Console.WriteLine("Type 'exit' to quit");
 
                     userInput = Console.ReadLine();
