@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\demon\\OneDrive\\Documents\\GitHub\\PetStore\\PetStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4703178-F6BA-47E2-B96D-12DA5C150938}|PetStore\\PetStore.csproj|c:\\users\\demon\\onedrive\\documents\\github\\petstore\\petstore\\petstore\\decimalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4703178-F6BA-47E2-B96D-12DA5C150938}|PetStore\\PetStore.csproj|solutionrelative:petstore\\decimalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A4703178-F6BA-47E2-B96D-12DA5C150938}|PetStore\\PetStore.csproj|c:\\users\\demon\\onedrive\\documents\\github\\petstore\\petstore\\petstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4703178-F6BA-47E2-B96D-12DA5C150938}|PetStore\\PetStore.csproj|solutionrelative:petstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,20 +11,24 @@
       "RelativeMoniker": "D:0:0:{A4703178-F6BA-47E2-B96D-12DA5C150938}|PetStore\\PetStore.csproj|solutionrelative:petstore\\productlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4703178-F6BA-47E2-B96D-12DA5C150938}|PetStore\\PetStore.csproj|c:\\users\\demon\\onedrive\\documents\\github\\petstore\\petstore\\petstore\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4703178-F6BA-47E2-B96D-12DA5C150938}|PetStore\\PetStore.csproj|solutionrelative:petstore\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4703178-F6BA-47E2-B96D-12DA5C150938}|PetStore\\PetStore.csproj|c:\\users\\demon\\onedrive\\documents\\github\\petstore\\petstore\\petstore\\dogleash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4703178-F6BA-47E2-B96D-12DA5C150938}|PetStore\\PetStore.csproj|solutionrelative:petstore\\dogleash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A4703178-F6BA-47E2-B96D-12DA5C150938}|PetStore\\PetStore.csproj|c:\\users\\demon\\onedrive\\documents\\github\\petstore\\petstore\\petstore\\iproductlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4703178-F6BA-47E2-B96D-12DA5C150938}|PetStore\\PetStore.csproj|solutionrelative:petstore\\iproductlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4703178-F6BA-47E2-B96D-12DA5C150938}|PetStore\\PetStore.csproj|c:\\users\\demon\\onedrive\\documents\\github\\petstore\\petstore\\petstore\\drycatfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4703178-F6BA-47E2-B96D-12DA5C150938}|PetStore\\PetStore.csproj|solutionrelative:petstore\\drycatfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4703178-F6BA-47E2-B96D-12DA5C150938}|PetStore\\PetStore.csproj|c:\\users\\demon\\onedrive\\documents\\github\\petstore\\petstore\\petstore\\dogleash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4703178-F6BA-47E2-B96D-12DA5C150938}|PetStore\\PetStore.csproj|solutionrelative:petstore\\dogleash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4703178-F6BA-47E2-B96D-12DA5C150938}|PetStore\\PetStore.csproj|c:\\users\\demon\\onedrive\\documents\\github\\petstore\\petstore\\petstore\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4703178-F6BA-47E2-B96D-12DA5C150938}|PetStore\\PetStore.csproj|solutionrelative:petstore\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4703178-F6BA-47E2-B96D-12DA5C150938}|PetStore\\PetStore.csproj|c:\\users\\demon\\onedrive\\documents\\github\\petstore\\petstore\\petstore\\decimalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4703178-F6BA-47E2-B96D-12DA5C150938}|PetStore\\PetStore.csproj|solutionrelative:petstore\\decimalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4703178-F6BA-47E2-B96D-12DA5C150938}|PetStore\\PetStore.csproj|c:\\users\\demon\\onedrive\\documents\\github\\petstore\\petstore\\petstore\\catfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,37 +42,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\demon\\OneDrive\\Documents\\GitHub\\PetStore\\PetStore\\PetStore\\Program.cs",
               "RelativeDocumentMoniker": "PetStore\\Program.cs",
               "ToolTip": "C:\\Users\\demon\\OneDrive\\Documents\\GitHub\\PetStore\\PetStore\\PetStore\\Program.cs",
               "RelativeToolTip": "PetStore\\Program.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAASwDIAAAAAAAAA",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAHMAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T03:01:24.251Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ProductLogic.cs",
               "DocumentMoniker": "C:\\Users\\demon\\OneDrive\\Documents\\GitHub\\PetStore\\PetStore\\PetStore\\ProductLogic.cs",
               "RelativeDocumentMoniker": "PetStore\\ProductLogic.cs",
               "ToolTip": "C:\\Users\\demon\\OneDrive\\Documents\\GitHub\\PetStore\\PetStore\\PetStore\\ProductLogic.cs",
               "RelativeToolTip": "PetStore\\ProductLogic.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T03:01:16.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\demon\\OneDrive\\Documents\\GitHub\\PetStore\\PetStore\\PetStore\\Product.cs",
               "RelativeDocumentMoniker": "PetStore\\Product.cs",
@@ -85,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "IProductLogic.cs",
               "DocumentMoniker": "C:\\Users\\demon\\OneDrive\\Documents\\GitHub\\PetStore\\PetStore\\PetStore\\IProductLogic.cs",
               "RelativeDocumentMoniker": "PetStore\\IProductLogic.cs",
@@ -98,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "DryCatFood.cs",
               "DocumentMoniker": "C:\\Users\\demon\\OneDrive\\Documents\\GitHub\\PetStore\\PetStore\\PetStore\\DryCatFood.cs",
               "RelativeDocumentMoniker": "PetStore\\DryCatFood.cs",
@@ -132,12 +132,11 @@
               "RelativeToolTip": "PetStore\\CatFood.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T03:00:25.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T03:00:25.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "DecimalExtensions.cs",
               "DocumentMoniker": "C:\\Users\\demon\\OneDrive\\Documents\\GitHub\\PetStore\\PetStore\\PetStore\\DecimalExtensions.cs",
               "RelativeDocumentMoniker": "PetStore\\DecimalExtensions.cs",

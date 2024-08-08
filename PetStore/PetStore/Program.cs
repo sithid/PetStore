@@ -56,12 +56,16 @@
                     }
                     else if (string.Equals(userInput, "8"))
                     {
+                        Console.WriteLine(); // Add some spacing between menu and output for clarity.
+
                         List<Product> products = productLogic.GetAllProducts();
 
                         foreach (Product product in products)
                         {
                             Console.WriteLine(product.ToString());
                         }
+
+                        Console.WriteLine(); // Add some spacing between menu and output for clarity.
                     }
                     else if (string.Equals(userInput, "9"))
                     {
@@ -72,9 +76,6 @@
 
                         foreach (Product p in productLogic.GetAllProducts())
                         {
-                            // I choose to do the output like this to gain access to all properties for a more verbose output.
-                            // I could have simply looped the return of GetOnlyInStockProducts and printed the string but I wanted
-                            // all of the additional information displayed with ToString.  For a customer, price is also as important as the name.
                             foreach (string prodName in products)
                             {
                                 if (string.Equals(p.Name, prodName))
@@ -95,9 +96,6 @@
 
                         foreach (Product p in productLogic.GetAllProducts())
                         {
-                            // I choose to do the output like this to gain access to all properties for a more verbose output.
-                            // I could have simply looped the return of GetOnlyInStockProducts and printed the string but I wanted
-                            // all of the additional information displayed with ToString.  For a customer, price is also as important as the name.
                             foreach (string prodName in products)
                             {
                                 if (string.Equals(p.Name, prodName))
@@ -113,7 +111,9 @@
                 catch (Exception e)
                 {
                     Console.WriteLine("An exception was caught!");
+#if DEBUG
                     Console.WriteLine(e.Message);
+#endif
                     Console.WriteLine("Press any key to continue.");
                     Console.ReadKey();
                 }
