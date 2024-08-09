@@ -95,15 +95,7 @@
 
         public List<string> GetOnlyInStockProducts()
         {
-            List<string> inStockProductNames = new List<string>();
-
-            foreach( Product product in _products )
-            {
-                if (product.QuantityOnHand > 0)
-                    inStockProductNames.Add(product.Name);
-            }
-
-            return inStockProductNames;
+            return _products.Where(p => p.QuantityOnHand > 0).Select(p => p.Name).ToList();
         }
 
         public List<string> GetOutOfStockProducts()

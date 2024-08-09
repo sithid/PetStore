@@ -76,6 +76,8 @@
 
                         foreach (Product p in productLogic.GetAllProducts())
                         {
+                            // I wanted access to the product object without changing the original methods return type.
+                            // GetOnlyInStockProducts still returns string.
                             foreach (string prodName in products)
                             {
                                 if (string.Equals(p.Name, prodName))
@@ -96,6 +98,9 @@
 
                         foreach (Product p in productLogic.GetAllProducts())
                         {
+                            // I wanted access to the product object without changing the original methods return type.
+                            // GetOutOfStockProducts still returns string.
+
                             foreach (string prodName in products)
                             {
                                 if (string.Equals(p.Name, prodName))
