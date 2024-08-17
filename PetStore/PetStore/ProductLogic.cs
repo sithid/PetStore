@@ -87,7 +87,7 @@
             return _products;
         }
 
-        public Product GetProductByName( string name)
+        public DogLeash GetDogLeashByName( string name)
         {
             try{ return _dogLeashes[name]; }
             catch( Exception e ){ return null; }

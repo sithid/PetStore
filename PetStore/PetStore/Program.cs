@@ -40,7 +40,7 @@
                     {
                         Console.Write("Enter Product Name: ");
 
-                        Product leash = productLogic.GetProductByName(Console.ReadLine());
+                        DogLeash leash = productLogic.GetDogLeashByName(Console.ReadLine());
 
                         if (leash != null)
                         {
